@@ -1,0 +1,38 @@
+apps in django 
+self controller 
+django templeting engine : html,css , javacript + space
+
+steps1: create app using python manage.py startapp _app_name
+step2: create urls.py  file in app and copy paste the urls from project file
+ path('',include('home.urls')) forword to home app urls
+
+ url dispatching
+
+ static files: (publicaly available)
+ add this to setting.py files 
+#Added mannually 
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
+
+
+
+ template
+ also add in template
+ BASE_DIR / "static"
+
+
+ render(reques,static_files,context)
+ context - set of variables
+
+
+build in login system
+to login into admin page run following commands
+1) python manage.py makemigrations (detect changes in databases)
+2)python manage.py migrate
+3)now create superuser (python manage.py createsuperuser)
+
+template inheritance
+
+block 
+template inheritance
