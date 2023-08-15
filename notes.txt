@@ -36,3 +36,5 @@ template inheritance
 
 block 
 template inheritance
+
+**csrf token
