@@ -40,4 +40,8 @@ template inheritance
 **csrf token
 --------------------------------models creations---------------------------
 create model 
-run command python manage.py makemigrations
+run command:
+cmd:  python manage.py makemigrations
+after registration of app and migration settings run followin command to create database table
+cmd:  python manage.py migrate
+username/password: admin  (set earlier)
