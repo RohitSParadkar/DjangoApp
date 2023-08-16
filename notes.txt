@@ -38,3 +38,6 @@ block
 template inheritance
 
 **csrf token
+--------------------------------models creations---------------------------
+create model 
+run command python manage.py makemigrations
