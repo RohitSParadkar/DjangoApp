@@ -45,3 +45,10 @@ cmd:  python manage.py makemigrations
 after registration of app and migration settings run followin command to create database table
 cmd:  python manage.py migrate
 username/password: admin  (set earlier)
+---------------------------------------------Django Message framwork-------------------
+from django.contrib.messages import constants as messages (to setting.py)
+
+
+-------------------------------------------python shell-------------------------------
+run command : python manage.py shell
+from home.models import Contacts
